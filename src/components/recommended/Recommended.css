@@ -1,0 +1,33 @@
+
+.recommended-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.recommended-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.btns{
+    padding: 10px 20px;
+    margin-right: 6px;
+    background-color: transparent;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px) {
+  .recommended-flex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    
+  }
+  .recommended-title{
+    margin-top: 2rem;
+  }
+}
